@@ -25,7 +25,7 @@ function landingSectionTwo() {
 
 
 <div className=" col-span-2 my-auto border-none text-xl dark:drop-shadow-[0_0_0.3rem_#ffffff70] w-full  ">
-    <div className="my-auto text-center w-4/5 px-6 text-[#4E306B] font-semibold text-xl">
+    <div className="my-auto text-center w-4/5 leading-8 px-6 text-[#4E306B] font-semibold text-xl">
 SendPlum is a money remittance technology that enables immigrants to digitally send money back home to various countries across Africa within seconds.
 
 You will be able to send money from US, UK, Europe to various countries in Africa. You only need a smartphone and a bank account. 

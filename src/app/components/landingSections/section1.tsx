@@ -7,7 +7,7 @@ function landingSectionOne() {
 
   return (
     
-    <div className="content" style={{ position: "relative" }}>
+    <div className="content h-screen" style={{ position: "relative" }}>
     <Image
       priority={true}
       alt="landing"
@@ -26,41 +26,39 @@ function landingSectionOne() {
         left: 0,
         width: "100%",
         height: "100%",
-        // background:
-        //   "linear-gradient(to bottom, rgba(82, 32, 128, 0.426), rgba(26, 10, 40, 0.6), #000000 93%)",
       }}
     />
+
     <div
       style={{
         position: "absolute",
         top: "22%",
-        // left: "36%",
-        // transform: "translate(-50%, -50%)",
         textAlign: "center",
         color: "white",
-        zIndex: 1, // Ensure text is above the overlay
+        zIndex: 1,
       }}
     >
     
     <div className="z-10 w-full max-w-5xl items-center flex justify-between  text-sm lg:flex">
-
     <div className="flex flex-col">
-
-
-   
-
     <div className="w-3/5 ml-4 drop-shadow-lg ...">
-  <div className=" break-words dark:drop-shadow-[0_0_0.3rem_#ffffff70] text-5xl font-bold text-[#522280]  ">
+    <div className="my-4  break-words dark:drop-shadow-[0_0_0.3rem_#ffffff70] text-5xl font-bold text-[#522280]  ">
     The fastest  and safe way to send money to Africa
     </div>
 
-    <span className="flex mx-1 border-none text-2xl dark:drop-shadow-[0_0_0.3rem_#ffffff70] break-words backdrop-blur-sm  ">
+    <span className="my-3 font-bold flex mx-1 border-none text-2xl mt-4 dark:drop-shadow-[0_0_0.3rem_#ffffff70] break-words backdrop-blur-sm  ">
         Enjoy the best rates in the world which enables your loved one to receive more.
         </span>
 
-    <span className="flex mx-1 mt-14 border-none text-xl dark:drop-shadow-[0_0_0.3rem_#ffffff70] break-words backdrop-blur-sm  ">
-    Join the waiting list to be the first to be notified when we go live. Add your email. 
-    </span> 
+       <div className="flex flex-col">
+        <span className="my-3 font-normal flex mx-1 border-none whitespace-break-spaces text-xl mt-4 dark:drop-shadow-[0_0_0.3rem_#ffffff70]  backdrop-blur-sm  ">
+        Join the waiting list to be the first to be notified when we go live.
+            Add your email.
+        </span>
+
+        <button type="button" className="mx-auto w-40  text-white bg-[#522280] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Waitlist</button>
+</div>
+  
 </div>
 
     </div>

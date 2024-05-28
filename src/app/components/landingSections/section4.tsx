@@ -28,7 +28,7 @@ function landingSectionTwo() {
       }}
     />
    
-        <div className="-mt-1 font-sans text-sm font-semibold text-center text-[#522280]">Merchant Payments</div>
+        <div className="-mt-1  text-sm font-semibold text-center text-[#522280]">Merchant Payments</div>
 
 </div>
 
@@ -43,7 +43,7 @@ function landingSectionTwo() {
       }}
     />
    
-        <div className="-mt-1 font-sans text-sm font-semibold text-center text-[#522280]">Freelance Payments</div>
+        <div className="-mt-1  text-sm font-semibold text-center text-[#522280]">Freelance Payments</div>
 
 </div>
 
@@ -58,7 +58,7 @@ function landingSectionTwo() {
       }}
     />
    
-        <div className="-mt-1 font-sans text-sm font-semibold text-center text-[#522280]">Savings & Investments</div>
+        <div className="-mt-1  text-sm font-semibold text-center text-[#522280]">Savings & Investments</div>
 
 </div>
 
@@ -73,7 +73,7 @@ function landingSectionTwo() {
       }}
     />
    
-        <div className="-mt-1 font-sans text-sm font-semibold text-center text-[#522280]">Send Money</div>
+        <div className="-mt-1  text-sm font-semibold text-center text-[#522280]">Send Money</div>
 
 </div>
 
