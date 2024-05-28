@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Nunito,Montserrat } from "next/font/google";
+import { Flow_Circular } from "next/font/google";
 import Navbar from "./components/navbarlanding/navbar"
 import Footer from "./components/landingSections/footer"
 import "./styles/globals.css";
 
-const inter = Montserrat({ subsets: ["latin"] });
+const inter = Flow_Circular({
+  subsets: ["latin"],
+  weight: "400"
+});
 
 export const metadata: Metadata = {
   title: "PlumSend",
@@ -18,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body >
         <div>
           <Navbar/>
         {children}

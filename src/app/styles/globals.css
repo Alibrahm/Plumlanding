@@ -16,6 +16,14 @@
   }
 }
 
+@font-face {
+  font-family: 'Flow Circular';
+  src: url('/fonts/FlowCircular-Regular.woff2') format('woff2'),
+       url('/fonts/FlowCircular-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +32,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Flow Circular', sans-serif;
 }
 
 @layer utilities {

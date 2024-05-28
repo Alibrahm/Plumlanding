@@ -42,7 +42,7 @@ function landingSectionOne() {
       }}
     >
     
-    <div className="z-10 w-full max-w-5xl items-center flex justify-between font-mono text-sm lg:flex">
+    <div className="z-10 w-full max-w-5xl items-center flex justify-between  text-sm lg:flex">
 
     <div className="flex flex-col">
 
