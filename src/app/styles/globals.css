@@ -7,6 +7,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+/* @font-face {
+  font-family: 'Flow_Circular';
+  src: url('../public/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -16,15 +23,9 @@
   }
 }
 
-@font-face {
-  font-family: 'Flow Circular';
-  src: url('/fonts/FlowCircular-Regular.woff2') format('woff2'),
-       url('/fonts/FlowCircular-Regular.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
 
-body {
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -33,7 +34,17 @@ body {
     )
     rgb(var(--background-start-rgb));
     font-family: 'Flow Circular', sans-serif;
+} */
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
+
 
 @layer utilities {
   .text-balance {

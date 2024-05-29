@@ -4,13 +4,13 @@ import Image from 'next/image';
 function footer() {
 
   return (
-<footer className="p-4 bg-[#522280] rounded-tr-[50px] md:p-8 lg:p-10 dark:bg-gray-800">
-  <div className="mx-auto max-w-screen-xl text-center">
+<footer className="p-4 bg-[#522280] rounded-tr-[50px] md:p-8 lg:p-10 ">
+  <div className="mx-auto font-flow-circular max-w-screen-xl text-center">
     
       <div className="flex flex-col ">
       <p className="my-6 text-gray-300 dark:text-gray-400">Join the waitlist to experience the best alternative to send money</p>
      <div className="mx-auto">
-      <button className="border border-gray-400 rounded-md text-white font-[Circular Std] p-2">Join Waitlist</button>
+      <button className="border border-gray-400 rounded-md text-white  p-2">Join Waitlist</button>
       </div>
 
       <div className="w-3/5 mt-2 mx-auto px-3 bg-[#7830BC] rounded-md">

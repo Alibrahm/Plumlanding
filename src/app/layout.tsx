@@ -4,10 +4,11 @@ import Navbar from "./components/navbarlanding/navbar"
 import Footer from "./components/landingSections/footer"
 import "./styles/globals.css";
 
-const inter = Flow_Circular({
+const flowCircular = Flow_Circular({
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 });
+
 
 export const metadata: Metadata = {
   title: "PlumSend",
@@ -21,12 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
-        <div>
+     <body className={`${flowCircular.className} font-flow-circular bg-white`}>
+        
           <Navbar/>
         {children}
         <Footer/>
-        </div></body>
+      
+        </body>
     </html>
   );
 }
