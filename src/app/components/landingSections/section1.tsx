@@ -41,14 +41,14 @@ function landingSectionOne() {
     
     <div className="z-10 w-full h-full max-w-5xl flex flex-start flex-col  text-sm lg:flex">
 
-<div className="ml-7 my-auto">
+<div className="ml-14 my-auto">
     <div className="my-4 flex  w-full break-words   text-6xl font-bold text-[#522280]  ">
     The fastest and<br />
  safe way to send<br />
   money to Africa
     </div>
 </div>
-    <span className="my-3 font-semibold flex mx-8 border-none text-2xl mt-4 break-words backdrop-blur-sm  ">
+    <span className="my-3 font-semibold flex mx-16 border-none text-2xl mt-4 break-words backdrop-blur-sm  ">
         Enjoy the best rates in the world which<br/>  enable your loved ones to receive more.
         </span>
 
