@@ -6,36 +6,40 @@ function landingSectionTwo() {
 
   return (
     
-   <div className="w-full overflow-hidden drop-shadow-lg ">
-    <div className="overflow-hidden  my-auto grid grid-cols-3 gap-3  p-4 w-full  backdrop-blur-sm bg-[#e1dfda]">
-        
- 
-
-<div className="p-3">
+   <div className="w-full  overflow-hidden  drop-shadow-lg  backdrop-blur-sm bg-[#e1dfda]">
+<div className="px-7 flex">
     <Image
       priority={true}
       alt="icons"
       src={marketlady}
+      className="py-5"
       style={{
-        width: "100%",
-        height: "100%",
+       
+        height: '415px',
       }}
     />
-    </div>
-
-
-<div className=" col-span-2 my-auto border-none text-xl dark:drop-shadow-[0_0_0.3rem_#ffffff70] w-full  ">
-    <div className="my-auto text-center w-4/5 leading-8 px-6 text-[#4E306B] font-semibold text-xl">
+  
+    <div className="my-auto text-center w-3/5  text-[#4E306B] font-normal text-3xl">
 SendPlum is a money remittance technology that enables immigrants to digitally send money back home to various countries across Africa within seconds.
 
-You will be able to send money from US, UK, Europe to various countries in Africa. You only need a smartphone and a bank account. 
-   </div> </div> 
+<span className="flex mt-3 text-3xl break-words">You will be able to send money from US, UK, Europe to various countries in Africa.
+ You only need a smartphone and a bank account. </span>
+   </div> 
+   </div>
+
+        
+ 
 
 
 
 
 
-    </div>
+
+
+
+
+
+    {/* </div> */}
     </div>
 
   );

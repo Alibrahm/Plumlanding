@@ -5,7 +5,7 @@ function footer() {
 
   return (
 <footer className="p-4 bg-[#522280] rounded-tr-[50px] md:p-8 lg:p-10 ">
-  <div className="mx-auto font-flow-circular max-w-screen-xl text-center">
+  <div className="mx-auto  max-w-screen-xl text-center">
     
       <div className="flex flex-col ">
       <p className="my-6 text-gray-300 dark:text-gray-400">Join the waitlist to experience the best alternative to send money</p>

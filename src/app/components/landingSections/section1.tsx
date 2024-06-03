@@ -39,29 +39,27 @@ function landingSectionOne() {
       }}
     >
     
-    <div className="z-10 w-full max-w-5xl items-center flex justify-between  text-sm lg:flex">
-    <div className="flex flex-col">
-    <div className="w-4/5 ml-4 drop-shadow-lg ...">
-    <div className="my-4  break-words dark:drop-shadow-[0_0_0.3rem_#ffffff70] text-6xl font-bold text-[#522280]  ">
-    The fastest  and safe way to send money to Africa
-    </div>
+    <div className="z-10 w-full h-full max-w-5xl flex flex-start flex-col  text-sm lg:flex">
 
-    <span className="my-3 font-bold flex mx-1 border-none text-2xl mt-4 dark:drop-shadow-[0_0.2rem_#5e55558c] break-words backdrop-blur-sm  ">
-        Enjoy the best rates in the world which enables your loved one to receive more.
+<div className="ml-7 my-auto">
+    <div className="my-4 flex  w-full break-words   text-6xl font-bold text-[#522280]  ">
+    The fastest and<br />
+ safe way to send<br />
+  money to Africa
+    </div>
+</div>
+    <span className="my-3 font-semibold flex mx-8 border-none text-2xl mt-4 break-words backdrop-blur-sm  ">
+        Enjoy the best rates in the world which<br/>  enable your loved ones to receive more.
         </span>
 
-       <div className="flex flex-col">
-        <span className="my-3 font-normal   border-none whitespace-break-spaces text-xl mt-4 drop-shadow-[0_0_0.6rem_#5e55558c]  backdrop-blur-md  ">
-        Join the waiting list to be the first to be notified when we go live.
+       <div className="flex flex-col my-3">
+        <span className="mx-2 font-normal line-clamp-2  border-none whitespace-break-spaces text-xl mt-4 backdrop-blur-md  ">
+        Join the waiting list to be the first to be notified when we go live.<br/>
              Add your email.
         </span>
 
-        <button type="button" className="mx-auto w-40  text-white bg-[#522280] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Waitlist</button>
-</div>
-  
-</div>
-
-    </div>
+        <button type="button" className="mx-auto w-40  text-white mt-4 bg-[#522280] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center  dark:focus:ring-blue-800">Join Waitlist</button>
+</div> 
   </div>
 
     </div>

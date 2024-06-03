@@ -4,7 +4,7 @@ import LandingSectionThree from "../components/landingSections/section3"
 import LandingSectionFeatures from "../components/landingSections/section4"
 export default function Home() {
   return (
-    <main className="flex min-h-screen font-flow-circular bg-white flex-col items-center justify-between  scroll">
+    <main className="flex min-h-screen font-flow-circular bg-[#ffffff] flex-col items-center justify-between  scroll">
         <LandingSectionOne/>
         <LandingSectionTwo/>
         <LandingSectionThree/>

@@ -17,14 +17,14 @@ function landingSectionTwo() {
         
    
 
-<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5  dark:focus:ring-gray-700">
     <Image
       priority={true}
       alt="icons"
       src={merchantpayments}
       style={{
         width: "120px",
-        height: "94px",
+        height: "98px",
       }}
     />
    
@@ -32,14 +32,14 @@ function landingSectionTwo() {
 
 </div>
 
-<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5  dark:focus:ring-gray-700">
     <Image
       priority={true}
       alt="icons"
       src={freelancepayments}
       style={{
         width: "120px",
-        height: "94px",
+        height: "98px",
       }}
     />
    
@@ -47,14 +47,14 @@ function landingSectionTwo() {
 
 </div>
 
-<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5  dark:focus:ring-gray-700">
     <Image
       priority={true}
       alt="icons"
       src={savings}
       style={{
         width: "120px",
-        height: "94px",
+        height: "98px",
       }}
     />
    
@@ -62,14 +62,14 @@ function landingSectionTwo() {
 
 </div>
 
-<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+<div className="w-full flex flex-col sm:w-auto bg-[#FAF9F6]  focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg  items-center justify-center px-4 py-2.5  dark:focus:ring-gray-700">
     <Image
       priority={true}
       alt="icons"
       src={sendmoney}
       style={{
         width: "120px",
-        height: "94px",
+        height: "98px",
       }}
     />
    

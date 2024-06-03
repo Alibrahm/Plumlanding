@@ -7,12 +7,13 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-/* @font-face {
-  font-family: 'Flow_Circular';
-  src: url('../public/fonts/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf');
+
+@font-face {
+  font-family: 'Circular-std';
+  src: url('../public/fonts/circular-std/CircularStd-Book.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 
 @media (prefers-color-scheme: dark) {
@@ -25,16 +26,6 @@
 
 
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    font-family: 'Flow Circular', sans-serif;
-} */
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -43,6 +34,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Circular-std', sans-serif;
 }
 
 

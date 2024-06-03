@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Flow_Circular } from "next/font/google";
-import Navbar from "./components/navbarlanding/navbar"
-import Footer from "./components/landingSections/footer"
-import "./styles/globals.css";
+import Navbar from "../components/navbarlanding/navbar"
+import Footer from "../components/landingSections/footer"
+import "../styles/globals.css";
 
 const flowCircular = Flow_Circular({
   subsets: ["latin"],
@@ -22,12 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     <body className={`${flowCircular.className} font-flow-circular bg-white`}>
-        
+     <body >
           <Navbar/>
         {children}
         <Footer/>
-      
         </body>
     </html>
   );
