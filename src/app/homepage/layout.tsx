@@ -4,11 +4,6 @@ import Navbar from "../components/navbarlanding/navbar"
 import Footer from "../components/landingSections/footer"
 import "../styles/globals.css";
 
-const flowCircular = Flow_Circular({
-  subsets: ["latin"],
-  weight: "400",
-});
-
 
 export const metadata: Metadata = {
   title: "PlumSend",
