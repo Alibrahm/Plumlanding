@@ -2,6 +2,7 @@
 import * as React from "react";
 import Image from "next/image";
 import LandingImage from "../../public/images/landinglady.jpg"
+import LandingImageR from "../../public/images/landingladyresized.jpg"
 
 function landingSectionOne() {
 
@@ -9,9 +10,10 @@ function landingSectionOne() {
     
     <div className=" h-screen" style={{ position: "relative" }}>
     <Image
-      priority={true}
+      // priority={true}
       alt="landing"
-      src={LandingImage}
+      src={LandingImageR}
+      placeholder="blur"
       sizes="100vw"
       style={{
         width: "100vw",
